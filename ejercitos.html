@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Alianzas - Punta de Lanza</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .cards-grid-2x2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+      max-width: 900px;
+      margin: 2rem auto;
+    }
+
+    .link-card {
+      text-decoration: none;
+      background-color: #1e1e2f;
+      border: 1px solid #444;
+      padding: 1.5rem;
+      border-radius: 8px;
+      color: white;
+      transition: transform 0.2s, background-color 0.2s;
+    }
+
+    .link-card:hover {
+      background-color: #2e2e4f;
+      transform: scale(1.02);
+    }
+
+    .link-card h3 {
+      margin-top: 0;
+      font-size: 1.5rem;
+    }
+
+    .link-card p {
+      font-size: 1rem;
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Alianzas de Warhammer - Punta de Lanza</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">🏠 Inicio</a></li>
+    </ul>
+  </nav>
+
+  <section class="section">
+    <h2>Elige una Alianza</h2>
+    <p style="text-align: center; max-width: 800px; margin: auto; font-size: 18px;">
+      En Warhammer Age of Sigmar, los ejércitos se dividen en cuatro grandes <strong>Alianzas</strong>. 
+      Cada una tiene su propio estilo de juego y filosofía en la batalla. 
+      Selecciona una para ver los ejércitos que la componen.
+    </p>
+  </section>
+
+  <section class="section">
+    <div class="cards-grid-2x2">
+
+      <a href="orden.html" class="link-card">
+        <h3>⚔️ Orden</h3>
+        <p>Defensores de la civilización y la luz. Héroes nobles y poderosas civilizaciones.</p>
+      </a>
+
+      <a href="caos.html" class="link-card">
+        <h3>🔥 Caos</h3>
+        <p>Corruptos y demoníacos, siembran destrucción en los Reinos Mortales.</p>
+      </a>
+
+      <a href="muerte.html" class="link-card">
+        <h3>💀 Muerte</h3>
+        <p>El poder de Nagash y los no-muertos. Criaturas inmortales con voluntad inquebrantable.</p>
+      </a>
+
+      <a href="destruccion.html" class="link-card">
+        <h3>💥 Destrucción</h3>
+        <p>Bestias salvajes, orcos y monstruos que buscan la guerra por puro instinto.</p>
+      </a>
+
+    </div>
+  </section>
+
+  <footer>
+    Hecho para Warhammer Age of Sigmar - Punta de Lanza ⚔️🔥💀💥
+  </footer>
+</body>
+</html>
